@@ -4,7 +4,7 @@
     <title>Exerc POO</title>
 </head>
 <body>
-    
+
     <form class="" action="exerc1_WesleySilva.php" method="post">
     <p><h3>Pessoa</h3>
         <input type="text" name="nome" placeholder="Nome:">
@@ -22,8 +22,8 @@
         <input type="text" name="marca" placeholder="Marca:">
         <input type="text" name="cor" placeholder="Cor:">
         <input type="text" name="placa" placeholder="Placa:">
-        <input type="number" name="modelo" placeholder="Modelo:">
-        
+        <input type="text" name="modelo" placeholder="Modelo:">
+
         <hr>
         <p><h3>livro</h3>
         <input type="text" name="titulo" placeholder="titulo:">

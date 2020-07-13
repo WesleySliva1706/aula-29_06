@@ -4,7 +4,7 @@
         private $nome;
         private $idade;
         private $peso;
-        private $sexo; 
+        private $sexo;
 
     //Metodo Construtor
     public function __construct($argNome = "", $argIdade = 0, $argPeso = 0, $argSexo = ""){
@@ -50,5 +50,10 @@
 
     public function getSexo(){
         return $this->sexo;
+    }
+
+    //poderia ter um método para exibir os dados aqui.
+    public function mostrarDados(){
+      //não implementado ainda
     }
 }

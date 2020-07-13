@@ -13,15 +13,15 @@ repositório no GitHub com sua implementação:
 https://github.com/WesleySliva1706/aula-29_06
 */
 
-require_once 'pessoa.php';
-require_once 'carro.php';
-require_once 'livro.php';
+require_once 'Pessoa.php';
+require_once 'Carro.php';
+require_once 'Livro.php';
 
     //Instanciando Objetos
     $p = new Pessoa();
     $c = new Carro();
     $l = new Livro();
-    
+
     //Chamada de Metodos
     //Set's
     //Pessoa
@@ -31,7 +31,7 @@ require_once 'livro.php';
     $p->setSexo();
 
     //Carro
-    $c->setMarca();
+    $c->setMarca($_POST['marca']);
     $c->setCor();
     $c->setPlaca();
     $c->setModelo();
